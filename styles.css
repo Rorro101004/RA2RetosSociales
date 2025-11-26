@@ -2,12 +2,17 @@
 
 /* ===== CSS VARIABLES ===== */
 :root {
-  /* Colors */
-  --color-primary: #2e8b57;
-  --color-primary-light: #3da76a;
-  --color-primary-dark: #1f5d3a;
-  --color-secondary: #55a7eb;
-  --color-accent: #a6e08a;
+/* Colors */
+  /* CAMBIO: De Verdes a Rojos Intensos y Serios */
+  --color-primary: #8B1E1E;       /* Rojo Oscuro (Sangre/Urgencia/ONG) */
+  --color-primary-light: #b93a3a; /* Rojo más claro para hovers */
+  --color-primary-dark: #5a0c0c;  /* Burdeos muy oscuro para fondos */
+  
+  /* CAMBIO: Secundario serio (Azul oscuro casi negro) */
+  --color-secondary: #1F2937;     
+  
+  /* CAMBIO: Acento Dorado (Para contrastar riqueza/pobreza) */
+  --color-accent: #d4af37;        
   --color-warning: #ff8c42;
 
   /* Neutrals */
@@ -147,7 +152,7 @@ a {
   width: 100%;
   height: 100vh;
   min-height: 600px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("imgs/portada_tierra.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("imgs/humanidad.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
